@@ -1,0 +1,5 @@
+## Looks like already installed
+
+# Workbench installation checking
+python -m pip show requests
+python -m pip install requests

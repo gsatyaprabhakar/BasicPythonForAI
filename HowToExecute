@@ -1,0 +1,80 @@
+fastapi:
+--------
+(1_pythonForAIExample) PS C:\upskill\practice\1_pythonForAIExample\10_fastapi\src\pyFiles>
+
+fastapi dev fastapp.py
+fastapi dev ./fastapp.py
+
+python -m fastapi dev fastapp.py
+python -m fastapi dev ./fastapp.py
+
+uv run fastapi dev fastapp.py
+uv run fastapi dev ./fastapp.py
+
+
+
+(1_pythonForAIExample) PS C:\upskill\practice\1_pythonForAIExample\10_fastapi>
+
+fastapi dev src/pyFiles/fastapp.py
+fastapi dev ./src/pyFiles/fastapp.py
+
+python -m fastapi dev src/pyFiles/fastapp.py
+python -m fastapi dev ./src/pyFiles/fastapp.py
+
+uv run fastapi dev src/pyFiles/fastapp.py
+uv run fastapi dev ./src/pyFiles/fastapp.py
+
+
+
+http://127.0.0.1:8000/
+http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/margin
+http://127.0.0.1:8000/margin?revenue=1100&expenses=300
+
+
+
+
+
+streamlit:
+----------
+(1_pythonForAIExample) PS C:\upskill\practice\codebasics\pythonForAIExample\4_call_llm\src\pyFiles>
+
+streamlit run llm_calls_5_streamitapp.py
+streamlit run ./llm_calls_5_streamitapp.py
+
+python -m streamlit run llm_calls_5_streamitapp.py
+python -m streamlit run ./llm_calls_5_streamitapp.py
+
+uv run streamlit run llm_calls_5_streamitapp.py
+uv run streamlit run ./llm_calls_5_streamitapp.py
+
+
+
+(1_pythonForAIExample) PS C:\upskill\practice\codebasics\pythonForAIExample\4_call_llm>
+
+streamlit run src/pyFiles/llm_calls_5_streamitapp.py
+streamlit run ./src/pyFiles/llm_calls_5_streamitapp.py
+
+python -m streamlit run src/pyFiles/llm_calls_5_streamitapp.py
+python -m streamlit run ./src/pyFiles/llm_calls_5_streamitapp.py
+
+uv run streamlit run src/pyFiles/llm_calls_5_streamitapp.py
+uv run streamlit run ./src/pyFiles/llm_calls_5_streamitapp.py
+
+
+
+
+
+Python
+------
+(1_pythonForAIExample) PS C:\upskill\practice\1_pythonForAIExample\5_error_handling\src\pyFiles>
+
+python error_handling_9_Exercise_Base.py
+python ./error_handling_9_Exercise_Base.py
+
+
+(1_pythonForAIExample) PS C:\upskill\practice\1_pythonForAIExample\5_error_handling>
+
+python src/pyFiles/error_handling_9_Exercise_Base.py
+python ./src/pyFiles/error_handling_9_Exercise_Base.py
+

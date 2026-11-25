@@ -1,0 +1,13 @@
+1, Create a .env file at workbench root folder (Ex: C:\upskill\practice\codebasics\pythonForAIExample\)
+
+2, python-dotenv installation
+python -m pip show python-dotenv
+python -m pip install python-dotenv
+
+3, google-genai installation
+python -m pip show google-genai
+python -m pip install google-genai
+
+3, streamlit installation
+python -m pip show streamlit
+python -m pip install streamlit

@@ -1,0 +1,89 @@
+(pythonForAIExample) PS C:\upskill\practice\codebasics\pythonForAIExample\8_files> & 'c:\upskill\practice\codebasics\pythonForAIExample\.venv\Scripts\python.exe' 'c:/upskill/practice/codebasics/pythonForAIExample/8_files/src/pyFiles/Exercise_2_Bonus.py'
+
+
+C:\upskill\practice\codebasics\pythonForAIExample\8_files\meeting.txt
+
+
+
+
+LLM Response
+sdk_http_response=HttpResponse(
+  headers=<dict len=12>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+  "action_items": [
+    {
+      "task": "check all the machines this week",
+      "owner": "Anjali"
+    },
+    {
+      "task": "plan some extra shifts to cover the gap",
+      "owner": "Ramesh"
+    },
+    {
+      "task": "finish the machine check by Friday",
+      "owner": "Anjali"
+    },
+    {
+      "task": "send me a short report on the paint problem by tomorrow",
+      "owner": "Vikram"
+    }
+  ]
+}""",
+        thought_signature=b'\x12`\n^\x01i\x14}\x13/\xcf9\xed\x13\xd9&\x17x\x98/\x8e\xc7}\xf3e\xaa\xeb\xc1\xba\x08\xcf\x1a\x94t\xfd\x9auQ\xb1\x7f$\xf6\xb6w\xe8\xa3e*B\xab\xb5\xd1\x12\x88Y\x16=3\xecg\xd1\x98B\x1e\xe17\x0e\x8c|\xf0\x19\xb8\x919\xad?\xe1\xd4\x16\xe5\xb5}\x95\xe9}V)e6KI\x98\xaf\xae\xd6\xe5\xca\x9a'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-3.5-flash-lite' prompt_feedback=None response_id='IS73ar-3Md2l694PtK71yQc' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=133,
+  prompt_token_count=199,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=199
+    ),
+  ],
+  total_token_count=332
+) model_status=None automatic_function_calling_history=[] parsed=ActionItems(action_items=[ActionItem(task='check all the machines this week', owner='Anjali'), ActionItem(task='plan some extra shifts to cover the gap', owner='Ramesh'), ActionItem(task='finish the machine check by Friday', owner='Anjali'), ActionItem(task='send me a short report on the paint problem by tomorrow', owner='Vikram')])
+
+
+
+
+parsed = response.parsed
+action_items=[ActionItem(task='check all the machines this week', owner='Anjali'), ActionItem(task='plan some extra shifts to cover the gap', owner='Ramesh'), ActionItem(task='finish the machine check by Friday', owner='Anjali'), ActionItem(task='send me a short report on the paint problem by tomorrow', owner='Vikram')]
+
+
+
+
+parsed.model_dump(mode="json")
+{'action_items': [{'task': 'check all the machines this week', 'owner': 'Anjali'}, {'task': 'plan some extra shifts to cover thegap', 'owner': 'Ramesh'}, {'task': 'finish the machine check by Friday', 'owner': 'Anjali'}, {'task': 'send me a short report onthe paint problem by tomorrow', 'owner': 'Vikram'}]}
+
+
+C:\upskill\practice\codebasics\pythonForAIExample\8_files\action_items.json
+
+
+action_items.json saved.
+
+
+C:\upskill\practice\codebasics\pythonForAIExample\8_files\action_items.json
+
+
+action_items.json content
+{'action_items': [{'task': 'check all the machines this week', 'owner': 'Anjali'}, {'task': 'plan some extra shifts to cover thegap', 'owner': 'Ramesh'}, {'task': 'finish the machine check by Friday', 'owner': 'Anjali'}, {'task': 'send me a short report onthe paint problem by tomorrow', 'owner': 'Vikram'}]}
+
+
+check all the machines this week (owner: Anjali)
+plan some extra shifts to cover the gap (owner: Ramesh)
+finish the machine check by Friday (owner: Anjali)
+send me a short report on the paint problem by tomorrow (owner: Vikram)
+
+
+Completed Execution
+
+(pythonForAIExample) PS C:\upskill\practice\codebasics\pythonForAIExample\8_files> 

@@ -1,0 +1,16 @@
+{
+  "action_items": [
+    {
+      "task": "Plan extra shifts to cover the production gap",
+      "owner": "Ramesh"
+    },
+    {
+      "task": "Finish the machine check",
+      "owner": "Anjali"
+    },
+    {
+      "task": "Send a short report on the paint problem",
+      "owner": "Vikram"
+    }
+  ]
+}

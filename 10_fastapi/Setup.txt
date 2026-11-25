@@ -1,0 +1,3 @@
+# Workbench installation checking
+python -m pip show "fastapi[standard]"
+python -m pip install "fastapi[standard]"

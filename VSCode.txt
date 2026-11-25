@@ -1,0 +1,14 @@
+# To open VS Code
+# Go to workbench root directory in command-prompt
+C:\upskill\practiced\python>code .
+
+
+Note Book Kernel Selection:
+Select Kernel -> Python Kernel -> workbench venv Kernel
+
+
+Extension:
+----------
+SQLite3 Editor Extension
+Python extension for Visual Studio Code from Microsoft
+Jupyter extension for Visual Studio Code from Microsoft

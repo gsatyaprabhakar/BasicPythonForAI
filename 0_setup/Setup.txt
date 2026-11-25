@@ -1,0 +1,33 @@
+Execute in VS Code Terminal in Command Prompt mode
+
+
+# Creates environment
+uv venv
+
+
+# Activate environment
+.venv\Scripts\activate
+
+
+# Basic libraries required
+python -m pip --version
+python -m ensurepip --upgrade
+python -m pip --version
+python -m pip install --upgrade pip
+python -m pip show PyYAML
+python -m pip install --only-binary=:all: PyYAML
+python -m pip show PyYAML
+
+
+# Notebook Kernel
+# Required to execute code from Notebook
+python -m pip show ipykernel
+python -m pip install ipykernel
+python -m pip show ipykernel
+
+
+# Required for installation validation
+# Python library: pydantic
+python -m pip show pydantic
+python -m pip install pydantic
+python -m pip show pydantic
