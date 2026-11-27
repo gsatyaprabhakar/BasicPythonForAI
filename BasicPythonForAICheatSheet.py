@@ -463,6 +463,7 @@ class Sentiment(BaseModel):
 
 @app.post("/sentiment")
 def analyze_sentiment(review: Review):
+# def analyze_sentiment(review: Review) -> Sentiment : ## Validate it
     response = client.models.generate_content(
         model="gemini-3.1-flash-lite",
         contents=(
